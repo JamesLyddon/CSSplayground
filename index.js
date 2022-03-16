@@ -1,5 +1,5 @@
 const title = document.querySelector(".title");
 
 title.addEventListener("click", () => {
-  alert("connected");
+  title.style.color = "red";
 });
