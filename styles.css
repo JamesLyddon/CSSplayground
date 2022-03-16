@@ -33,6 +33,7 @@ body {
   border: 2px red solid;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  place-items: center;
 }
 
 .card {
@@ -40,4 +41,14 @@ body {
   border: 2px blue solid;
   max-width: 400px;
   text-align: center;
+}
+
+.about_container {
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+}
+
+.about {
+  grid-column: 2/3;
+  margin: 2rem;
 }
