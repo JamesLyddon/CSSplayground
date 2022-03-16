@@ -1,0 +1,8 @@
+- clamp
+- video/animated background
+- starting at 320px, using 40em as a breakpoint?
+- animated svg
+- making your own svg
+- using 3js, how to include canvas in layout
+- setting a colour theme globally with variables
+- hover and click animations, ideling animations
