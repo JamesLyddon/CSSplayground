@@ -1,3 +1,43 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 90%;
+}
+
+.main {
+}
+
+.hero {
+  text-align: center;
+  padding: 1rem;
+  border: 2px red solid;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem;
+  border: 2px red solid;
+}
+
+.testimonials {
+  border: 2px red solid;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+  margin: 1rem;
+  border: 2px blue solid;
+  max-width: 400px;
+  text-align: center;
 }
