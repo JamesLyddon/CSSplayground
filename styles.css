@@ -2,52 +2,64 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Sansita Swashed", cursive;
   color: #eeeee4;
 }
-
+h1.title {
+  font-size: 16vw;
+  line-height: 0.8;
+  font-family: "Hurricane", cursive;
+  color: #fdd835;
+}
+h6.hero {
+  font-size: 4vw;
+  line-height: 0.8;
+  font-family: "Hurricane", cursive;
+  color: #ffe679;
+}
+.title {
+  margin: 0 auto;
+}
+.hero {
+  max-width: 70%;
+  margin: 0 auto;
+}
 body {
   display: flex;
   justify-content: center;
 }
 
 .container {
-  max-width: 90%;
-}
-
-.main {
+  max-width: 80%;
 }
 
 .hero {
   text-align: center;
-  padding: 1rem;
+  margin-bottom: 3rem;
 }
 
 .header {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .testimonials {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  place-items: center;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
 }
 
 .card {
   margin: 1rem;
   max-width: 400px;
   text-align: center;
-}
-
-.about_container {
-  display: grid;
-  grid-template-columns: 2fr 6fr 2fr;
-}
-
-.about {
-  grid-column: 2/3;
-  margin: 2rem;
+  display: block;
 }
 
 #videoBG {

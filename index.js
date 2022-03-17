@@ -1,5 +1,2 @@
-const title = document.querySelector(".title");
-
-title.addEventListener("click", () => {
-  title.style.color = "red";
-});
+const vid = document.getElementById("videoBG");
+vid.playbackRate = 0.8;
