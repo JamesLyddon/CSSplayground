@@ -66,3 +66,12 @@ body {
     height: 100%;
   }
 }
+@media (max-width: 767px) {
+  #videoBG {
+    display: none;
+  }
+  body {
+    background: url("img/poster.png");
+    background-size: cover;
+  }
+}
