@@ -14,17 +14,19 @@ h1.title {
   white-space: nowrap;
 }
 h6.hero {
-  font-size: clamp(2rem, 6vw + 1rem, 4rem);
+  font-size: clamp(1rem, 3vw + 1rem, 3rem);
   line-height: 0.8;
   font-family: "Hurricane", cursive;
   color: #ffe679;
 }
 .title {
   margin: 0 auto;
+  margin-top: 1rem;
 }
 .hero {
   max-width: 70%;
   margin: 0 auto;
+  margin-bottom: 1rem;
 }
 body {
   display: flex;
@@ -62,6 +64,15 @@ body {
   max-width: 400px;
   text-align: center;
   display: block;
+}
+
+.about {
+  text-align: center;
+  margin: 2rem;
+  font-size: clamp(1rem, 3vw + 1rem, 3rem);
+  border: 2px solid #eeeee4;
+  padding: 2rem;
+  border-radius: 20px;
 }
 
 #videoBG {
