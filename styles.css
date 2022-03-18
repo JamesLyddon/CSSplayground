@@ -6,13 +6,15 @@
   color: #eeeee4;
 }
 h1.title {
-  font-size: 16vw;
+  font-size: clamp(3.5rem, 12vw + 1rem, 8rem);
   line-height: 0.8;
   font-family: "Hurricane", cursive;
   color: #fdd835;
+  padding: 0;
+  white-space: nowrap;
 }
 h6.hero {
-  font-size: 4vw;
+  font-size: clamp(2rem, 6vw + 1rem, 4rem);
   line-height: 0.8;
   font-family: "Hurricane", cursive;
   color: #ffe679;
